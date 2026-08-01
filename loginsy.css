@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.Msc{
+    display: flex;
+    height: 100%;
+}
+.Lsc{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    position: relative;      
+}
+.Rsc{
+    background-image:url(ggg.png);
+    background-size: cover;
+    background-position: center;
+}
+.Rsc,.Lsc{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+}
+.name1{
+    margin-top: 45px;
+    margin-left: -150px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.LoginF{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    /* background-color: rgb(117, 252, 207); */
+    width: 250px;
+}
+.username1{
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Mitr", sans-serif;
+}
+.Password1{
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Mitr", sans-serif;
+}
+h3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+}
+.Logbtt{
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+hr{
+    width: 78%;
+}
+.reg{
+    display: inline-block;
+    padding: 2px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border: 2.2px solid #333333;
+    border-radius: 50px;
+}

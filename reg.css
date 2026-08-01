@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+}
+.LoginF{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.name1{
+    margin-top: 45px;
+    margin-left: -150px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.username1{
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Mitr", sans-serif;
+}
+.Password1{
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Mitr", sans-serif;
+}
+.Password2{
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Mitr", sans-serif;
+}
+h3{
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+}
+.reg1btt{
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+hr{
+    width: 78%;
+}
+.back{
+    display: inline-block;
+    padding: 2px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Mitr", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    border: 2.2px solid #333333;
+    border-radius: 50px;
+}
